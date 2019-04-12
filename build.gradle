@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id "io.freefair.lombok" version "3.2.0"
+}
+
+group 'com.github.mpnsk'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
